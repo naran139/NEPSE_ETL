@@ -1,0 +1,901 @@
+[2024-11-16T04:38:46.284+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:38:46.287+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:38:46.291+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:38:46.291+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:38:46.425+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:38:47.074+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:38:47.072+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:testing
+[2024-11-16T04:38:47.118+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:38:47.117+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:testing
+[2024-11-16T04:38:47.147+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:38:47.146+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:testing
+[2024-11-16T04:38:47.188+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:38:47.187+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:testing
+[2024-11-16T04:38:47.211+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:38:47.210+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:testing
+[2024-11-16T04:38:47.229+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:38:47.228+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:testing
+[2024-11-16T04:38:47.247+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:38:47.246+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:testing
+[2024-11-16T04:38:47.248+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:38:47.248+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:38:47.288+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:38:47.288+0000] {dag.py:3262} INFO - Creating ORM DAG for testing
+[2024-11-16T04:38:47.315+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:38:47.315+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:38:47.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 1.076 seconds
+[2024-11-16T04:39:17.414+0000] {processor.py:186} INFO - Started process (PID=513) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:39:17.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:39:17.418+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:39:17.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:39:17.447+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:39:17.467+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:39:17.467+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:39:17.495+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:39:17.494+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:39:16.885+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.123 seconds
+[2024-11-16T04:39:47.892+0000] {processor.py:186} INFO - Started process (PID=802) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:39:47.896+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:39:47.902+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:39:47.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:39:47.960+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:39:47.984+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:39:47.983+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:39:48.014+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:39:48.014+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:39:48.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.160 seconds
+[2024-11-16T04:40:15.434+0000] {processor.py:186} INFO - Started process (PID=1098) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:40:15.436+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:40:15.440+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:40:15.440+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:40:15.501+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:40:15.491+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 4, in <module>
+    from Nepse_ETL.app.extract.hello import greeting
+ModuleNotFoundError: No module named 'Nepse_ETL'
+[2024-11-16T04:40:15.503+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:40:15.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.120 seconds
+[2024-11-16T04:40:29.845+0000] {processor.py:186} INFO - Started process (PID=1291) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:40:29.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:40:29.850+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:40:29.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:40:29.954+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:40:29.983+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:40:29.982+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:40:30.013+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:40:30.012+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:40:30.051+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.216 seconds
+[2024-11-16T04:41:00.766+0000] {processor.py:186} INFO - Started process (PID=1592) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:41:00.768+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:41:00.770+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:41:00.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:41:00.808+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:41:00.831+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:41:00.831+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:41:00.862+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:41:00.862+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:41:00.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.130 seconds
+[2024-11-16T04:41:32.479+0000] {processor.py:186} INFO - Started process (PID=1881) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:41:32.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:41:32.483+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:41:32.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:41:32.534+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:41:32.558+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:41:32.557+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:41:32.596+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:41:32.595+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:41:32.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.146 seconds
+[2024-11-16T04:42:03.671+0000] {processor.py:186} INFO - Started process (PID=2162) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:42:03.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:42:03.676+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:42:03.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:42:03.724+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:42:03.747+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:42:03.747+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:42:03.796+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:42:03.795+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:42:03.826+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.163 seconds
+[2024-11-16T04:42:34.794+0000] {processor.py:186} INFO - Started process (PID=2448) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:42:34.795+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:42:34.799+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:42:34.798+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:42:34.845+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:42:34.873+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:42:34.872+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:42:34.909+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:42:34.909+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:42:34.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.162 seconds
+[2024-11-16T04:43:05.259+0000] {processor.py:186} INFO - Started process (PID=2715) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:43:05.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:43:05.265+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:43:05.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:43:05.312+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:43:05.332+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:43:05.332+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:43:05.360+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:43:05.359+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:43:05.384+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.135 seconds
+[2024-11-16T04:43:35.447+0000] {processor.py:186} INFO - Started process (PID=3003) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:43:35.448+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:43:35.451+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:43:35.450+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:43:35.504+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:43:35.526+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:43:35.526+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:43:35.556+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:43:35.556+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:43:35.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.146 seconds
+[2024-11-16T04:44:07.839+0000] {processor.py:186} INFO - Started process (PID=3292) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:44:07.840+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:44:07.845+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:44:07.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:44:07.892+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:44:07.916+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:44:07.916+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:44:07.948+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:44:07.948+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:44:07.974+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.143 seconds
+[2024-11-16T04:44:39.791+0000] {processor.py:186} INFO - Started process (PID=3580) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:44:39.793+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:44:39.795+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:44:39.795+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:44:39.846+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:44:39.872+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:44:39.872+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:44:39.909+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:44:39.908+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:44:39.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.166 seconds
+[2024-11-16T04:44:59.193+0000] {processor.py:186} INFO - Started process (PID=3836) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:44:59.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:44:59.200+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:44:59.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:44:59.292+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:44:59.330+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:44:59.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:44:59.367+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:44:59.367+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:44:59.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.223 seconds
+[2024-11-16T04:45:29.517+0000] {processor.py:186} INFO - Started process (PID=4132) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:45:29.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:45:29.534+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:29.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:29.640+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:29.676+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:29.675+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:45:29.736+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:29.736+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:45:29.774+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.281 seconds
+[2024-11-16T04:45:30.525+0000] {processor.py:186} INFO - Started process (PID=4137) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:45:30.527+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:45:30.531+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:30.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:30.564+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:30.563+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 15
+    python_callable= ,
+    ^^^^^^^^^^^^^^^^
+SyntaxError: expected argument value expression
+[2024-11-16T04:45:30.565+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:30.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.079 seconds
+[2024-11-16T04:45:30.637+0000] {processor.py:186} INFO - Started process (PID=4142) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:45:30.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:45:30.640+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:30.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:30.656+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:30.655+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 15
+    python_callable= ,
+    ^^^^^^^^^^^^^^^^
+SyntaxError: expected argument value expression
+[2024-11-16T04:45:30.656+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:30.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.046 seconds
+[2024-11-16T04:45:30.722+0000] {processor.py:186} INFO - Started process (PID=4147) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:45:30.724+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:45:30.727+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:30.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:30.742+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:30.741+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 15
+    python_callable= ,
+    ^^^^^^^^^^^^^^^^
+SyntaxError: expected argument value expression
+[2024-11-16T04:45:30.743+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:30.765+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.051 seconds
+[2024-11-16T04:45:30.808+0000] {processor.py:186} INFO - Started process (PID=4152) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:45:30.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:45:30.811+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:30.811+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:30.827+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:30.826+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 15
+    python_callable= ,
+    ^^^^^^^^^^^^^^^^
+SyntaxError: expected argument value expression
+[2024-11-16T04:45:30.827+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:30.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.046 seconds
+[2024-11-16T04:45:34.923+0000] {processor.py:186} INFO - Started process (PID=4157) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:45:34.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:45:34.928+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:34.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:34.951+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:34.949+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 16
+    python_callable= ,
+    ^^^^^^^^^^^^^^^^
+SyntaxError: expected argument value expression
+[2024-11-16T04:45:34.953+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:34.986+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.070 seconds
+[2024-11-16T04:45:36.984+0000] {processor.py:186} INFO - Started process (PID=4162) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:45:36.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:45:36.989+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:36.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:37.013+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:37.011+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 5
+    from app.
+             ^
+SyntaxError: invalid syntax
+[2024-11-16T04:45:37.014+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:37.050+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.075 seconds
+[2024-11-16T04:45:43.983+0000] {processor.py:186} INFO - Started process (PID=4270) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:45:43.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:45:43.989+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:43.989+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:44.012+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:44.010+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 16
+    python_callable= ,
+    ^^^^^^^^^^^^^^^^
+SyntaxError: expected argument value expression
+[2024-11-16T04:45:44.013+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:44.046+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.072 seconds
+[2024-11-16T04:45:46.244+0000] {processor.py:186} INFO - Started process (PID=4322) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:45:46.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:45:46.249+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:46.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:46.275+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:46.274+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 16
+    python_callable= ,
+    ^^^^^^^^^^^^^^^^
+SyntaxError: expected argument value expression
+[2024-11-16T04:45:46.276+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:46.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.076 seconds
+[2024-11-16T04:45:56.016+0000] {processor.py:186} INFO - Started process (PID=4412) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:45:56.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:45:56.023+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:56.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:56.392+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:45:56.416+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:56.415+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:45:56.447+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:45:56.447+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:45:56.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.480 seconds
+[2024-11-16T04:46:26.849+0000] {processor.py:186} INFO - Started process (PID=4717) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:46:26.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:46:26.854+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:46:26.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:46:27.091+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:46:27.117+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:46:27.116+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:46:26.527+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:46:26.527+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:46:26.551+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.343 seconds
+[2024-11-16T04:46:56.636+0000] {processor.py:186} INFO - Started process (PID=5013) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:46:56.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:46:56.641+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:46:56.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:46:56.843+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:46:56.878+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:46:56.878+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:46:56.911+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:46:56.911+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:46:56.939+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.314 seconds
+[2024-11-16T04:47:27.261+0000] {processor.py:186} INFO - Started process (PID=5309) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:47:27.263+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:47:27.268+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:47:27.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:47:27.452+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:47:27.483+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:47:27.482+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:47:27.524+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:47:27.523+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:47:27.557+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.305 seconds
+[2024-11-16T04:47:57.736+0000] {processor.py:186} INFO - Started process (PID=5603) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:47:57.738+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:47:57.744+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:47:57.741+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:47:58.022+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:47:58.063+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:47:58.061+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:47:58.104+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:47:58.103+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:47:58.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.420 seconds
+[2024-11-16T04:48:28.441+0000] {processor.py:186} INFO - Started process (PID=5869) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:48:28.443+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:48:28.448+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:48:28.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:48:28.910+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:48:28.949+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:48:28.948+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:48:29.003+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:48:29.003+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:48:29.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.606 seconds
+[2024-11-16T04:48:59.844+0000] {processor.py:186} INFO - Started process (PID=6173) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:48:59.846+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:48:59.851+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:48:59.850+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:49:00.064+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:49:00.088+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:49:00.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:49:00.124+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:49:00.124+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:49:00.150+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.321 seconds
+[2024-11-16T04:49:30.406+0000] {processor.py:186} INFO - Started process (PID=6431) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:49:30.407+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:49:30.410+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:49:30.409+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:49:30.540+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:49:30.564+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:49:30.563+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:49:30.600+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:49:30.600+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:49:30.624+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.225 seconds
+[2024-11-16T04:50:02.062+0000] {processor.py:186} INFO - Started process (PID=6717) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:50:02.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:50:02.067+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:50:02.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:50:02.206+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:50:02.225+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:50:02.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:50:02.248+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:50:02.248+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:50:02.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.214 seconds
+[2024-11-16T04:50:32.440+0000] {processor.py:186} INFO - Started process (PID=6996) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:50:32.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:50:32.444+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:50:32.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:50:32.594+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:50:32.617+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:50:32.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:50:32.644+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:50:32.644+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:50:32.667+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.235 seconds
+[2024-11-16T04:51:03.543+0000] {processor.py:186} INFO - Started process (PID=7289) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:51:03.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:51:03.548+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:51:03.548+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:51:03.718+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:51:03.741+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:51:03.740+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:51:03.766+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:51:03.766+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:51:03.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.254 seconds
+[2024-11-16T04:51:33.840+0000] {processor.py:186} INFO - Started process (PID=7590) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:51:33.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:51:33.843+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:51:33.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:51:33.964+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:51:33.984+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:51:33.984+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:51:34.007+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:51:34.007+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:51:34.026+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.192 seconds
+[2024-11-16T04:52:04.119+0000] {processor.py:186} INFO - Started process (PID=7882) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:52:04.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:52:04.124+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:52:04.124+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:52:04.338+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:52:04.360+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:52:04.360+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:52:04.389+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:52:04.388+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:52:04.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.299 seconds
+[2024-11-16T04:52:34.549+0000] {processor.py:186} INFO - Started process (PID=8178) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:52:34.551+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:52:34.554+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:52:34.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:52:34.744+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:52:34.764+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:52:34.764+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:52:34.793+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:52:34.792+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:52:34.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.278 seconds
+[2024-11-16T04:53:05.142+0000] {processor.py:186} INFO - Started process (PID=8475) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:53:05.143+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:53:05.146+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:53:05.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:53:05.336+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:53:05.361+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:53:05.360+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:53:05.389+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:53:05.389+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:53:05.421+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.291 seconds
+[2024-11-16T04:53:35.850+0000] {processor.py:186} INFO - Started process (PID=8771) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:53:35.852+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:53:35.855+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:53:35.854+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:53:36.048+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:53:36.074+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:53:36.073+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:53:36.104+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:53:36.104+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:53:36.130+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.289 seconds
+[2024-11-16T04:54:06.429+0000] {processor.py:186} INFO - Started process (PID=9063) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:54:06.431+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:54:06.435+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:54:06.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:54:06.672+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:54:06.698+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:54:06.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:54:06.729+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:54:06.728+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:54:06.765+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.346 seconds
+[2024-11-16T04:54:37.766+0000] {processor.py:186} INFO - Started process (PID=9337) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:54:37.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:54:37.776+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:54:37.775+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:54:37.992+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:54:38.023+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:54:38.022+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:54:38.062+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:54:38.061+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:54:38.099+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.343 seconds
+[2024-11-16T04:55:08.910+0000] {processor.py:186} INFO - Started process (PID=9613) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:55:08.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:55:08.915+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:55:08.914+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:55:09.132+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:55:09.163+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:55:09.163+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:55:09.205+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:55:09.204+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:55:09.231+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.330 seconds
+[2024-11-16T04:55:39.684+0000] {processor.py:186} INFO - Started process (PID=9896) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:55:39.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:55:39.689+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:55:39.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:55:39.902+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:55:39.930+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:55:39.929+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:55:39.974+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:55:39.973+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:55:40.007+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.335 seconds
+[2024-11-16T04:56:10.083+0000] {processor.py:186} INFO - Started process (PID=10190) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:56:10.084+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:56:10.088+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:56:10.087+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:56:10.261+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:56:10.289+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:56:10.289+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:56:10.324+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:56:10.324+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:56:10.352+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.278 seconds
+[2024-11-16T04:56:40.410+0000] {processor.py:186} INFO - Started process (PID=10484) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:56:40.411+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:56:40.414+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:56:40.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:56:40.557+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:56:40.577+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:56:40.577+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:56:40.603+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:56:40.603+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:56:40.623+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.220 seconds
+[2024-11-16T04:57:11.268+0000] {processor.py:186} INFO - Started process (PID=10780) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:57:11.270+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:57:11.274+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:57:11.273+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:57:11.484+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:57:11.508+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:57:11.507+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:57:11.543+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:57:11.543+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:57:11.571+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.315 seconds
+[2024-11-16T04:57:41.906+0000] {processor.py:186} INFO - Started process (PID=11076) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:57:41.907+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:57:41.911+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:57:41.911+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:57:42.137+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:57:42.162+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:57:42.161+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:57:42.205+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:57:42.205+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:57:42.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.341 seconds
+[2024-11-16T04:58:12.556+0000] {processor.py:186} INFO - Started process (PID=11372) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:58:12.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:58:12.560+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:58:12.559+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:58:12.717+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:58:12.735+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:58:12.734+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:58:12.761+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:58:12.761+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:58:12.904+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.356 seconds
+[2024-11-16T04:58:43.804+0000] {processor.py:186} INFO - Started process (PID=11668) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:58:43.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:58:43.809+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:58:43.808+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:58:44.005+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:58:44.028+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:58:44.027+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:58:44.063+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:58:44.062+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:58:44.092+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.296 seconds
+[2024-11-16T04:59:14.288+0000] {processor.py:186} INFO - Started process (PID=11969) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:59:14.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:59:14.293+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:59:14.293+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:59:14.484+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:59:14.521+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:59:14.520+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:59:14.559+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:59:14.558+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:59:14.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.305 seconds
+[2024-11-16T04:59:44.959+0000] {processor.py:186} INFO - Started process (PID=12260) to work on /opt/airflow/dags/etl.py
+[2024-11-16T04:59:44.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T04:59:44.964+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:59:44.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T04:59:45.234+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T04:59:45.260+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:59:45.259+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T04:59:45.295+0000] {logging_mixin.py:190} INFO - [2024-11-16T04:59:45.295+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T04:59:45.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.377 seconds
+[2024-11-16T05:00:15.431+0000] {processor.py:186} INFO - Started process (PID=12559) to work on /opt/airflow/dags/etl.py
+[2024-11-16T05:00:15.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T05:00:15.436+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:00:15.436+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T05:00:15.658+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T05:00:15.685+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:00:15.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T05:00:15.725+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:00:15.725+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T05:00:15.754+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.335 seconds
+[2024-11-16T05:00:46.227+0000] {processor.py:186} INFO - Started process (PID=12852) to work on /opt/airflow/dags/etl.py
+[2024-11-16T05:00:46.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T05:00:46.232+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:00:46.231+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T05:00:46.431+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T05:00:46.468+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:00:46.467+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T05:00:46.503+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:00:46.503+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T05:00:46.533+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.317 seconds
+[2024-11-16T05:01:16.700+0000] {processor.py:186} INFO - Started process (PID=13160) to work on /opt/airflow/dags/etl.py
+[2024-11-16T05:01:16.701+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T05:01:16.704+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:01:16.703+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T05:01:16.886+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T05:01:16.910+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:01:16.910+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T05:01:17.135+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:01:17.135+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T05:01:17.159+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.466 seconds
+[2024-11-16T05:01:47.308+0000] {processor.py:186} INFO - Started process (PID=13451) to work on /opt/airflow/dags/etl.py
+[2024-11-16T05:01:47.309+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T05:01:47.312+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:01:47.312+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T05:01:47.541+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T05:01:47.569+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:01:47.568+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T05:01:47.615+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:01:47.615+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T05:01:47.896+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.597 seconds
+[2024-11-16T05:02:18.004+0000] {processor.py:186} INFO - Started process (PID=13747) to work on /opt/airflow/dags/etl.py
+[2024-11-16T05:02:18.006+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T05:02:18.013+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:02:18.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T05:02:18.271+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T05:02:18.294+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:02:18.293+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T05:02:18.329+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:02:18.329+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T05:02:18.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.368 seconds
+[2024-11-16T05:02:48.815+0000] {processor.py:186} INFO - Started process (PID=14043) to work on /opt/airflow/dags/etl.py
+[2024-11-16T05:02:48.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T05:02:48.819+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:02:48.818+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T05:02:49.050+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T05:02:49.080+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:02:49.080+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T05:02:49.123+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:02:49.122+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T05:02:49.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.357 seconds
+[2024-11-16T05:03:19.685+0000] {processor.py:186} INFO - Started process (PID=14339) to work on /opt/airflow/dags/etl.py
+[2024-11-16T05:03:19.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T05:03:19.689+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:03:19.689+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T05:03:19.873+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T05:03:20.098+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:03:20.097+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T05:03:20.129+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:03:20.128+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T05:03:20.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.483 seconds
+[2024-11-16T05:03:50.359+0000] {processor.py:186} INFO - Started process (PID=14640) to work on /opt/airflow/dags/etl.py
+[2024-11-16T05:03:50.361+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T05:03:50.365+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:03:50.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T05:03:50.549+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T05:03:50.583+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:03:50.582+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T05:03:50.818+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:03:50.818+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T05:03:50.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.496 seconds
+[2024-11-16T05:04:21.795+0000] {processor.py:186} INFO - Started process (PID=14936) to work on /opt/airflow/dags/etl.py
+[2024-11-16T05:04:21.797+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T05:04:21.799+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:04:21.799+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T05:04:22.005+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T05:04:22.043+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:04:22.042+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T05:04:22.281+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:04:22.280+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T05:04:22.311+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.528 seconds
+[2024-11-16T05:04:52.412+0000] {processor.py:186} INFO - Started process (PID=15232) to work on /opt/airflow/dags/etl.py
+[2024-11-16T05:04:52.414+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T05:04:52.418+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:04:52.417+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T05:04:52.641+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T05:04:52.675+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:04:52.674+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T05:04:52.718+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:04:52.717+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T05:04:53.018+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.618 seconds
+[2024-11-16T05:05:23.256+0000] {processor.py:186} INFO - Started process (PID=15528) to work on /opt/airflow/dags/etl.py
+[2024-11-16T05:05:23.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T05:05:23.262+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:05:23.262+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T05:05:23.696+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T05:05:23.725+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:05:23.724+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T05:05:23.765+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:05:23.764+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T05:05:23.800+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.554 seconds
+[2024-11-16T05:05:54.465+0000] {processor.py:186} INFO - Started process (PID=15824) to work on /opt/airflow/dags/etl.py
+[2024-11-16T05:05:54.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T05:05:54.471+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:05:54.471+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T05:05:54.663+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T05:05:54.894+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:05:54.893+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T05:05:54.923+0000] {logging_mixin.py:190} INFO - [2024-11-16T05:05:54.923+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T05:05:54.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.498 seconds
+[2024-11-16T06:42:06.225+0000] {processor.py:186} INFO - Started process (PID=16064) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:42:06.235+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:42:06.251+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:42:06.250+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:42:06.974+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:42:07.067+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:42:07.066+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:42:07.705+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:42:07.704+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:42:07.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 1.584 seconds
+[2024-11-16T06:42:38.005+0000] {processor.py:186} INFO - Started process (PID=16381) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:42:38.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:42:38.014+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:42:38.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:42:38.568+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:42:38.593+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:42:38.592+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:42:38.622+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:42:38.622+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:42:38.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.651 seconds
+[2024-11-16T06:43:09.558+0000] {processor.py:186} INFO - Started process (PID=16677) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:43:09.560+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:43:09.563+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:43:09.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:43:09.834+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:43:09.860+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:43:09.860+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:43:09.892+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:43:09.891+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:43:09.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.378 seconds
+[2024-11-16T06:43:40.331+0000] {processor.py:186} INFO - Started process (PID=16973) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:43:40.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:43:40.336+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:43:40.335+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:43:40.574+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:43:40.612+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:43:40.612+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:43:40.649+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:43:40.649+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:43:40.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.355 seconds
+[2024-11-16T06:44:11.034+0000] {processor.py:186} INFO - Started process (PID=17269) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:44:11.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:44:11.053+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:44:11.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:44:12.365+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:44:12.455+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:44:12.454+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:44:12.537+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:44:12.536+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:44:12.601+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 1.592 seconds
+[2024-11-16T06:44:42.891+0000] {processor.py:186} INFO - Started process (PID=17570) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:44:42.893+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:44:42.897+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:44:42.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:44:43.101+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:44:43.128+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:44:43.127+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:44:43.161+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:44:43.160+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:44:43.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.326 seconds
+[2024-11-16T06:45:13.770+0000] {processor.py:186} INFO - Started process (PID=17866) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:45:13.771+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:45:13.775+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:45:13.774+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:45:14.006+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:45:14.038+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:45:14.037+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:45:14.078+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:45:14.078+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:45:14.115+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.355 seconds
+[2024-11-16T06:45:44.318+0000] {processor.py:186} INFO - Started process (PID=18165) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:45:44.319+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:45:44.323+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:45:44.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:45:44.550+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:45:44.578+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:45:44.577+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:45:44.616+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:45:44.616+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:45:44.643+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.334 seconds
+[2024-11-16T06:46:14.907+0000] {processor.py:186} INFO - Started process (PID=18468) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:46:14.909+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:46:14.912+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:46:14.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:46:15.172+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:46:15.196+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:46:15.196+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:46:15.229+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:46:15.229+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:46:15.254+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.354 seconds
+[2024-11-16T06:46:45.671+0000] {processor.py:186} INFO - Started process (PID=18754) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:46:45.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:46:45.676+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:46:45.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:46:45.910+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:46:45.953+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:46:45.952+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:46:45.992+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:46:45.992+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:46:46.027+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.365 seconds
+[2024-11-16T06:47:16.179+0000] {processor.py:186} INFO - Started process (PID=19045) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:47:16.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:47:16.185+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:47:16.185+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:47:16.446+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:47:16.471+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:47:16.470+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:47:16.512+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:47:16.512+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:47:16.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.370 seconds
+[2024-11-16T06:47:46.900+0000] {processor.py:186} INFO - Started process (PID=19331) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:47:46.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:47:46.905+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:47:46.905+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:47:47.089+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:47:47.113+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:47:47.112+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:47:47.145+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:47:47.144+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:47:47.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.285 seconds
+[2024-11-16T06:48:10.731+0000] {processor.py:186} INFO - Started process (PID=19602) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:48:10.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:48:10.735+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:10.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:11.041+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:11.018+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 7, in <module>
+    default_args
+NameError: name 'default_args' is not defined
+[2024-11-16T06:48:11.050+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:11.089+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.370 seconds
+[2024-11-16T06:48:13.336+0000] {processor.py:186} INFO - Started process (PID=19627) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:48:13.338+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:48:13.342+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:13.341+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:13.664+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:13.696+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:13.695+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:48:13.744+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:13.743+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:48:13.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.478 seconds
+[2024-11-16T06:48:17.723+0000] {processor.py:186} INFO - Started process (PID=19637) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:48:17.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:48:17.729+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:17.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:18.092+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:18.075+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 8, in <module>
+    retr
+NameError: name 'retr' is not defined. Did you mean: 'repr'?
+[2024-11-16T06:48:18.096+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:18.130+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.416 seconds
+[2024-11-16T06:48:18.921+0000] {processor.py:186} INFO - Started process (PID=19685) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:48:18.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:48:18.927+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:18.927+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:19.243+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:19.228+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 8, in <module>
+    retries : 1
+    ^^^^^^^
+NameError: name 'retries' is not defined
+[2024-11-16T06:48:19.250+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:19.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.374 seconds
+[2024-11-16T06:48:19.375+0000] {processor.py:186} INFO - Started process (PID=19692) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:48:19.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:48:19.384+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:19.383+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:19.712+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:19.693+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 8, in <module>
+    retries : 1
+    ^^^^^^^
+NameError: name 'retries' is not defined
+[2024-11-16T06:48:19.720+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:19.765+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.396 seconds
+[2024-11-16T06:48:21.897+0000] {processor.py:186} INFO - Started process (PID=19733) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:48:21.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:48:21.904+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:21.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:22.248+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:22.237+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 8, in <module>
+    ret
+NameError: name 'ret' is not defined. Did you mean: 'set'?
+[2024-11-16T06:48:22.253+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:22.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.418 seconds
+[2024-11-16T06:48:26.718+0000] {processor.py:186} INFO - Started process (PID=19826) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:48:26.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:48:26.725+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:26.724+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:27.043+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:27.133+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:27.132+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:48:27.191+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:27.190+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:48:27.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.533 seconds
+[2024-11-16T06:48:50.243+0000] {processor.py:186} INFO - Started process (PID=19972) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:48:50.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:48:50.250+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:50.249+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:50.509+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:50.498+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 10, in <module>
+    'retry_delay': timedelta(minutes=2)
+                   ^^^^^^^^^
+NameError: name 'timedelta' is not defined
+[2024-11-16T06:48:50.514+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:50.549+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.320 seconds
+[2024-11-16T06:48:55.431+0000] {processor.py:186} INFO - Started process (PID=20109) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:48:55.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:48:55.435+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:55.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:55.663+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:48:55.683+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:55.682+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:48:55.710+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:48:55.710+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:48:55.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.315 seconds
+[2024-11-16T06:49:07.354+0000] {processor.py:186} INFO - Started process (PID=20224) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:49:07.356+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:49:07.360+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:49:07.360+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:49:07.399+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:49:07.398+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 17
+    defa
+    ^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-11-16T06:49:07.400+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:49:07.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.079 seconds
+[2024-11-16T06:49:09.528+0000] {processor.py:186} INFO - Started process (PID=20234) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:49:09.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:49:09.532+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:49:09.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:49:09.552+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:49:09.551+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 17
+    default_args=de
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-11-16T06:49:09.553+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:49:09.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.054 seconds
+[2024-11-16T06:49:12.731+0000] {processor.py:186} INFO - Started process (PID=20244) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:49:12.732+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:49:12.735+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:49:12.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:49:12.770+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:49:12.768+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 17
+    default_args=defa
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-11-16T06:49:12.771+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:49:12.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.086 seconds
+[2024-11-16T06:49:14.127+0000] {processor.py:186} INFO - Started process (PID=20264) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:49:14.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:49:14.132+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:49:14.132+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:49:14.178+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:49:14.177+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/etl.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl.py", line 17
+    default_args=default_args
+                 
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2024-11-16T06:49:14.180+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:49:14.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.093 seconds
+[2024-11-16T06:49:44.391+0000] {processor.py:186} INFO - Started process (PID=20560) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:49:44.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:49:44.395+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:49:44.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:49:44.576+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:49:44.687+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:49:44.687+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:49:44.710+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:49:44.709+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:49:44.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.357 seconds
+[2024-11-16T06:50:14.897+0000] {processor.py:186} INFO - Started process (PID=20862) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:50:14.899+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:50:14.902+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:50:14.901+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:50:15.055+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:50:15.075+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:50:15.075+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:50:15.100+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:50:15.100+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:50:15.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.235 seconds
+[2024-11-16T06:50:45.338+0000] {processor.py:186} INFO - Started process (PID=21158) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:50:45.339+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:50:45.342+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:50:45.342+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:50:45.588+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:50:45.611+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:50:45.610+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:50:45.639+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:50:45.639+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:50:45.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.335 seconds
+[2024-11-16T06:51:16.089+0000] {processor.py:186} INFO - Started process (PID=21455) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:51:16.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:51:16.097+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:51:16.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:51:16.381+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:51:16.414+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:51:16.413+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:51:16.452+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:51:16.452+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:51:16.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.405 seconds
+[2024-11-16T06:51:46.896+0000] {processor.py:186} INFO - Started process (PID=21753) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:51:46.898+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:51:46.902+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:51:46.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:51:47.115+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:51:47.134+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:51:47.133+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:51:47.163+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:51:47.163+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:51:47.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.304 seconds
+[2024-11-16T06:52:17.369+0000] {processor.py:186} INFO - Started process (PID=22049) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:52:17.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:52:17.372+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:52:17.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:52:17.511+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:52:17.529+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:52:17.528+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:52:17.552+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:52:17.551+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:52:17.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.217 seconds
+[2024-11-16T06:52:47.637+0000] {processor.py:186} INFO - Started process (PID=22345) to work on /opt/airflow/dags/etl.py
+[2024-11-16T06:52:47.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T06:52:47.641+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:52:47.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T06:52:47.787+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T06:52:47.814+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:52:47.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T06:52:47.858+0000] {logging_mixin.py:190} INFO - [2024-11-16T06:52:47.857+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T06:52:47.895+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.264 seconds
+[2024-11-16T07:05:09.418+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/etl.py
+[2024-11-16T07:05:09.420+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T07:05:09.426+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:05:09.425+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T07:05:10.039+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T07:05:10.087+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:05:10.086+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T07:05:10.139+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:05:10.139+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T07:05:10.177+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.769 seconds
+[2024-11-16T07:05:40.335+0000] {processor.py:186} INFO - Started process (PID=508) to work on /opt/airflow/dags/etl.py
+[2024-11-16T07:05:40.336+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T07:05:40.341+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:05:40.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T07:05:40.554+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T07:05:40.581+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:05:40.581+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T07:05:40.613+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:05:40.613+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T07:05:40.647+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.321 seconds
+[2024-11-16T07:06:11.104+0000] {processor.py:186} INFO - Started process (PID=799) to work on /opt/airflow/dags/etl.py
+[2024-11-16T07:06:11.108+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T07:06:11.111+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:06:11.110+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T07:06:11.285+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T07:06:11.308+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:06:11.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T07:06:11.338+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:06:11.338+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T07:06:11.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.269 seconds
+[2024-11-16T07:06:42.295+0000] {processor.py:186} INFO - Started process (PID=1099) to work on /opt/airflow/dags/etl.py
+[2024-11-16T07:06:42.300+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T07:06:42.330+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:06:42.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T07:06:42.854+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T07:06:42.923+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:06:42.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T07:06:42.988+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:06:42.988+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T07:06:43.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.807 seconds
+[2024-11-16T07:07:13.448+0000] {processor.py:186} INFO - Started process (PID=1395) to work on /opt/airflow/dags/etl.py
+[2024-11-16T07:07:13.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T07:07:13.455+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:07:13.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T07:07:13.641+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T07:07:13.665+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:07:13.664+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T07:07:13.696+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:07:13.696+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T07:07:13.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.282 seconds
+[2024-11-16T07:07:43.904+0000] {processor.py:186} INFO - Started process (PID=1696) to work on /opt/airflow/dags/etl.py
+[2024-11-16T07:07:43.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T07:07:43.909+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:07:43.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T07:07:44.065+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T07:07:44.088+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:07:44.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T07:07:44.116+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:07:44.116+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T07:07:44.140+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.243 seconds
+[2024-11-16T07:08:14.316+0000] {processor.py:186} INFO - Started process (PID=1997) to work on /opt/airflow/dags/etl.py
+[2024-11-16T07:08:14.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T07:08:14.320+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:08:14.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T07:08:14.441+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T07:08:14.469+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:08:14.468+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T07:08:14.505+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:08:14.505+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T07:08:14.538+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.229 seconds
+[2024-11-16T07:08:44.622+0000] {processor.py:186} INFO - Started process (PID=2283) to work on /opt/airflow/dags/etl.py
+[2024-11-16T07:08:44.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/etl.py for tasks to queue
+[2024-11-16T07:08:44.626+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:08:44.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/etl.py
+[2024-11-16T07:08:44.773+0000] {processor.py:925} INFO - DAG(s) 'testing' retrieved from /opt/airflow/dags/etl.py
+[2024-11-16T07:08:44.794+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:08:44.794+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-16T07:08:44.824+0000] {logging_mixin.py:190} INFO - [2024-11-16T07:08:44.824+0000] {dag.py:4180} INFO - Setting next_dagrun for testing to 2024-11-17 00:00:00+00:00, run_after=2024-11-24 00:00:00+00:00
+[2024-11-16T07:08:44.850+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/etl.py took 0.235 seconds
